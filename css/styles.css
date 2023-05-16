@@ -7,6 +7,7 @@
   --text-color: #2e2f42;
   --button-color: #e7e9fc;
   --p-color: #f4f4fd;
+  --transition-dur-and-func: 250ms linear;
 }
 
 body {
@@ -922,6 +923,12 @@ button {
   border-radius: 4px;
   padding-left: 42px;
   color: #757575;
+  transition: border-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input:focus {
+  outline: none;
+  border-color: var(--e-five-color);
 }
 
 .modal-form-input-desc {
@@ -945,9 +952,28 @@ button {
   display: block;
   width: 18px;
   height: 18px;
+  transition: background-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input-wrapper {
   display: block;
   position: relative;
+}
+
+.modal-form-input:focus + .modal-form-input-icon {
+  fill: var(--hover-color);
+}
+
+.modal-form-message {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  transition: background-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-message:focus {
+  outline: none;
+  border-color: var(--hover-color);
 }
