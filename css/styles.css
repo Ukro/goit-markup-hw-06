@@ -900,7 +900,7 @@ width: 100%
   border : 1px solid #555555;
   border-radius: 4px;
   padding-left 42px;
-};
+}
 
 .modal-form-input-desc
 {
@@ -910,10 +910,10 @@ font-size:14px;
   color: #303030;
   line-height: 1.2;
   margin-bottom: 8px;
-};
+}
 
 .modal-form-field
 {
 margin-bottom: 16px;
-};
+}
 
