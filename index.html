@@ -408,15 +408,15 @@
       </div>
     </footer>
 
-    <div class="modal-win " data-modal>
+    <div class="modal-win" data-modal>
       <div class="real-modal">
         <button type="button" class="modal-button" data-modal-close>
           <svg width="8" height="8" class="svg-modal">
             <use href="./images/icons.svg#icon-close" />
           </svg>
         </button>
-
         <div class="name-modal">Leave your contacts and we will call you back</div>
+
         <form class="modal-form">
           <label class="modal-form-field">
             <span class="modal-form-input-desc"> Name </span>
@@ -429,7 +429,10 @@
                 pattern="[a-zA-Zа-яА-Я]+"
                 minlength="2"
               />
-              <span class="modal-form-input-icon"></span>
+              <!-- <span class="modal-form-input-icon"></span> -->
+              <svg width="8" height="8" class="modal-form-input-icon">
+                <use href="./images/icons.svg#icon-man" />
+              </svg>
             </span>
           </label>
 
@@ -444,7 +447,9 @@
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 title="xxx-xxx-xx-xx"
               />
-              <span class="modal-form-input-icon"></span>
+              <svg width="8" height="8" class="modal-form-input-icon">
+                <use href="./images/icons.svg#icon-phone" />
+              </svg>
             </span>
           </label>
 
@@ -458,7 +463,9 @@
                 required
                 minlength="2"
               />
-              <span class="modal-form-input-icon"></span>
+              <svg width="8" height="8" class="modal-form-input-icon">
+                <use href="./images/icons.svg#icon-email" />
+              </svg>
             </span>
           </label>
 
