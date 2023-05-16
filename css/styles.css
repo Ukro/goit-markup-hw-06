@@ -977,3 +977,13 @@ button {
   outline: none;
   border-color: var(--hover-color);
 }
+
+.modal-form-check-desc::before {
+  display: block;
+  content: '';
+  width: 18px;
+  height: 18px;
+  border: 1px solid #303030;
+  cursor: pointer;
+  border-radius: 4px;
+}
