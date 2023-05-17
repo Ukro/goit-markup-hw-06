@@ -978,6 +978,15 @@ button {
   border-color: var(--hover-color);
 }
 
+.modal-form-check-desc
+{
+display: flex;
+  align-items: center;
+  font-size:14px;
+  margin-bottom: 20px;
+}
+
+
 .modal-form-check-desc::before {
   display: block;
   content: '';
@@ -986,6 +995,7 @@ button {
   border: 1px solid #303030;
   cursor: pointer;
   border-radius: 4px;
+  margin-right:10px;
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
