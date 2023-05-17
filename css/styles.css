@@ -987,3 +987,9 @@ button {
   cursor: pointer;
   border-radius: 4px;
 }
+
+.modal-form-check:checked + .modal-form-check-desc::before
+{
+  background-color: #4d5ae5;
+
+}
