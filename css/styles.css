@@ -993,5 +993,5 @@ button {
 /*   background-color: #4d5ae5; */
 /* box-shadow: 0 0 0 4px rgb(255,255,255); */
   
-  background-image: url(./images/check.svg)
+  background-image: url("./images/check.svg");
 }
