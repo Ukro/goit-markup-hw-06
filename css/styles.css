@@ -978,14 +978,12 @@ button {
   border-color: var(--hover-color);
 }
 
-.modal-form-check-desc
-{
-display: flex;
+.modal-form-check-desc {
+  display: flex;
   align-items: center;
-  font-size:12px;
+  font-size: 12px;
   margin-bottom: 20px;
 }
-
 
 .modal-form-check-desc::before {
   display: block;
@@ -995,7 +993,7 @@ display: flex;
   border: 1px solid #303030;
   cursor: pointer;
   border-radius: 4px;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
@@ -1008,7 +1006,6 @@ display: flex;
 .modal-form-check:focus + .modal-form-check-desc::before {
   outline: 2px solid rgba(0, 0, 255, 0.5);
 }
-
 
 .modal-form-submit {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1038,9 +1035,7 @@ display: flex;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 64px;
-  
-  
+  /* margin-top: 64px; */
 }
 
 .modal-form-submit:hover,
