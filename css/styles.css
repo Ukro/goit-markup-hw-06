@@ -988,10 +988,13 @@ button {
   border-radius: 4px;
 }
 
-.modal-form-check:checked + .modal-form-check-desc::before
-{
-/*   background-color: #4d5ae5; */
-/* box-shadow: 0 0 0 4px rgb(255,255,255); */
-  
-  background-image: url("./images/check.svg");
+.modal-form-check:checked + .modal-form-check-desc::before {
+  /* background-color: #4d5ae5; */
+  /* box-shadow: 0 0 0 4px rgb(255, 255, 255); */
+
+  background-image: url('./images/check.svg');
+}
+
+.modal-form-check:focus + .modal-form-check-desc::before {
+  outline: 2px solid rgba(0, 0, 255, 0.5);
 }
