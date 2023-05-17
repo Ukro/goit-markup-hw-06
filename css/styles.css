@@ -1027,6 +1027,7 @@ button {
 
   background-image: url('/images/check.svg');
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
