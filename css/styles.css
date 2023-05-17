@@ -917,13 +917,19 @@ button {
 }
 
 .modal-form-input {
+  background-color: #2e2f42;
+
   width: 100%;
   height: 40px;
-  border: 1px solid #555555;
+  border: 1px solid white;
   border-radius: 4px;
   padding-left: 42px;
   color: #757575;
   transition: border-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input::placeholder {
+  color: white;
 }
 
 .modal-form-input:focus {
