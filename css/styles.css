@@ -991,5 +991,5 @@ button {
 .modal-form-check:checked + .modal-form-check-desc::before
 {
   background-color: #4d5ae5;
-
+box-shadow: 0px 4px 4px rgba(255,255,255);
 }
