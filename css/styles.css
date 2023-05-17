@@ -1088,20 +1088,25 @@ button {
   text-align: center;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 
   display: block;
   width: 165px;
   height: 40px;
+
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: auto;
+  padding: auto;
+  /* margin-left: auto;
   margin-right: auto;
-  /* margin-top: 64px; */
+   margin-top: 64px; */
 }
 
 .subsrube-footer:hover,
 .subsrube-footer:focus {
   background-color: var(--hover-color);
+}
+
+.svg-transform {
+  transform: translateY(20%);
 }
