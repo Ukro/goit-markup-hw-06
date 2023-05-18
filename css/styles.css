@@ -731,6 +731,10 @@ button {
   margin-right: 120px;
 }
 
+.footer-div-logo-two {
+  margin-right: 80px;
+}
+
 .strategy-pargraf-shrift-name {
   margin-bottom: 8px;
 }
@@ -1107,6 +1111,44 @@ button {
   background-color: var(--hover-color);
 }
 
+/*  
 .svg-transform {
   transform: translateY(20%);
+}*/
+
+.form-subscribe-footer {
+  display: flex;
+  gap: 24px;
+}
+
+.subsrube-footer {
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+}
+
+.subscribe-text {
+  width: 77px;
+  height: 24px;
+
+  /* Button Text */
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* WHITE */
+
+  color: #ffffff;
 }
