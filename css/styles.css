@@ -942,7 +942,8 @@ button {
 .footer-form-input {
   background-color: #2e2f42;
 
-  width: 100%;
+  /* width: 100%; */
+  width: 264px;
   height: 40px;
   border: 1px solid white;
   border-radius: 4px;
@@ -1127,6 +1128,7 @@ button {
   display: flex;
   align-items: center;
 
+  justify-content: center;
   gap: 16px;
 }
 
