@@ -922,7 +922,7 @@ button {
   height: 40px;
   border: 1px solid var(--text-color);
   border-radius: 4px;
-  padding-left: 42px;
+  padding-left: 38px;
   color: var(--color75);
   transition: border-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -968,6 +968,10 @@ button {
 }
 
 .modal-form-field {
+  margin-bottom: 8px;
+}
+
+.modal-form-field-text {
   margin-bottom: 16px;
 }
 
@@ -996,6 +1000,7 @@ button {
   resize: none;
   width: 100%;
   height: 120px;
+  display: block;
   padding: 10px 16px 10px 16px;
   border-radius: 4px;
   transition: background-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
