@@ -8,6 +8,10 @@
   --button-color: #e7e9fc;
   --p-color: #f4f4fd;
   --transition-dur-and-func: 250ms linear;
+  --color55: #555555;
+  --color30: #303030;
+  --color75: #757575;
+  --color99: #8e8f99;
 }
 
 body {
@@ -823,6 +827,7 @@ button {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px;
+  padding-top: 72px;
 }
 
 .modal-button {
@@ -892,17 +897,9 @@ button {
 /* hw 6 */
 
 .name-modal {
-  /* Body Medium */
-  width: 360px;
-  height: 24px;
-  left: 540px;
-  top: 152px;
-
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* identical to box height, or 150% */
 
   text-align: center;
@@ -910,8 +907,8 @@ button {
 
   /* NAVY BLUE */
 
-  color: #2e2f42;
-  margin-top: 48px;
+  color: var(--text-color);
+
   margin-bottom: 16px;
 }
 
@@ -923,15 +920,15 @@ button {
 .modal-form-input {
   width: 100%;
   height: 40px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--text-color);
   border-radius: 4px;
   padding-left: 42px;
-  color: #757575;
+  color: var(--color75);
   transition: border-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input::placeholder {
-  color: white;
+  color: var(--ff-color);
 }
 
 .modal-form-input:focus {
@@ -940,20 +937,20 @@ button {
 }
 
 .footer-form-input {
-  background-color: #2e2f42;
+  background-color: var(--text-color);
 
   /* width: 100%; */
   width: 264px;
   height: 40px;
-  border: 1px solid white;
+  border: 1px solid var(--ff-color);
   border-radius: 4px;
   padding-left: 16px;
-  color: #ffffff;
+  color: var(--ff-color);
   transition: border-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-input::placeholder {
-  color: white;
+  color: var(--ff-color);
 }
 
 .footer-form-input:focus {
@@ -963,11 +960,11 @@ button {
 
 .modal-form-input-desc {
   display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: #303030;
-  line-height: 1.2;
-  margin-bottom: 8px;
+  font-size: 12px;
+  /* font-weight: 400; */
+  color: var(--color99);
+  line-height: 1.17;
+  margin-bottom: 4px;
 }
 
 .modal-form-field {
@@ -980,8 +977,8 @@ button {
   left: 12px;
   transform: translateY(-50%);
   display: block;
-  width: 18px;
-  height: 18px;
+  /* width: 18px; */
+  /* height: 18px; */
   transition: background-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -995,9 +992,10 @@ button {
 }
 
 .modal-form-message {
+  border: 1px solid var(--text-color);
   resize: none;
   width: 100%;
-  height: 100px;
+  height: 120px;
   padding: 10px 16px 10px 16px;
   border-radius: 4px;
   transition: background-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
@@ -1020,17 +1018,18 @@ button {
   content: '';
   width: 18px;
   height: 18px;
-  border: 1px solid #303030;
+  border: 1px solid var(--text-color);
   cursor: pointer;
   border-radius: 4px;
   margin-right: 10px;
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-  background-color: #4d5ae5;
   /* box-shadow: 0 0 0 4px rgb(255, 255, 255); */
-
+  /* fill: 'blue'; */
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-image: url('/images/check.svg');
+  background-color: #4d5ae5;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1053,7 +1052,7 @@ button {
   cursor: pointer;
 
   text-align: center;
-  background: #4d5ae5;
+  background: var(--e-five-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
@@ -1067,7 +1066,7 @@ button {
   margin-right: auto;
   /* margin-top: 64px; */
 
-  border: 1px solid #555555;
+  border: 1px solid var(--color55);
 }
 
 .modal-form-submit:hover,
@@ -1091,7 +1090,7 @@ button {
   background-color: var(--e-five-color);
 
   text-align: center;
-  background: #4d5ae5;
+  background: var(--e-five-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   display: block;
@@ -1152,5 +1151,9 @@ button {
 
   /* WHITE */
 
-  color: #ffffff;
+  color: var(--ff-color);
+}
+
+.privacy-policy {
+  color: var(--e-five-color);
 }
