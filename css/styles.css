@@ -1179,3 +1179,7 @@ button {
 .form-subscribe-footer-label {
   margin-right: 24px;
 }
+
+.style-button-subscribe {
+  margin-left: 16px;
+}
