@@ -1030,11 +1030,15 @@ button {
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before {
+  /* display: block; */
   /* box-shadow: 0 0 0 4px rgb(255, 255, 255); */
   /* fill: 'blue'; */
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
   background-image: url('/images/check.svg');
-  background-color: #4d5ae5;
+  /* fill: var(--hover-color); */
+  /* -webkit-mask-image: url('/images/check.svg'); */
+  /* mask-image: url('/images/check.svg'); */
+  /* background-color: #4d5ae5; */
   background-repeat: no-repeat;
   background-position: center center;
 }
