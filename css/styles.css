@@ -1118,6 +1118,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   padding: auto;
+  min-width: 165px;
   /* margin-left: auto;
   margin-right: auto;
    margin-top: 64px; */
@@ -1177,8 +1178,4 @@ button {
 
 .form-subscribe-footer-label {
   margin-right: 24px;
-}
-
- {
-  background-color: transparent;
 }
