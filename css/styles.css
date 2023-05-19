@@ -946,7 +946,15 @@ button {
   border-radius: 4px;
   padding-left: 16px;
   color: var(--ff-color);
+
   transition: border-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
+
+  /*  */
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-input::placeholder {
@@ -1169,4 +1177,8 @@ button {
 
 .form-subscribe-footer-label {
   margin-right: 24px;
+}
+
+ {
+  background-color: transparent;
 }
