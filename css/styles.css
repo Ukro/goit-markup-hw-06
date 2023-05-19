@@ -948,7 +948,7 @@ button {
   border: 1px solid white;
   border-radius: 4px;
   padding-left: 16px;
-  color: #757575;
+  color: #ffffff;
   transition: border-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
