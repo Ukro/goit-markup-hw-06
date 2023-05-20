@@ -1231,6 +1231,6 @@ form input:focus .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
-textarea:focus {
+textarea:focus .modal-form-message {
   border-color: #4d5ae5;
 }
