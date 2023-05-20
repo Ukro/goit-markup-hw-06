@@ -1204,8 +1204,11 @@ button {
   margin-left: 16px;
 }
 
-.form-div-modal {
-  /* margin-bottom: 8px; */
+.form-div-modal-start {
+  margin-bottom: 8px;
+}
+
+.form-div-modal-end {
   margin-bottom: 16px;
 }
 
