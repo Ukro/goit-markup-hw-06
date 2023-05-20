@@ -428,22 +428,23 @@
 
         <form class="modal-form">
           <div class="form-div-modal">
-            <label class="modal-form-field modal-form-input-desc">
-              Name
-              <span class="modal-form-input-wrapper">
+            <label for="user-name" class="modal-form-field modal-form-input-desc"
+              >Name
+              <div>
                 <input
                   type="text"
-                  name="user_name"
+                  name="user-name"
                   class="modal-form-input"
                   required
                   pattern="[a-zA-Zа-яА-Я]+"
                   minlength="2"
                 />
                 <!-- <span class="modal-form-input-icon"></span> -->
+
                 <svg width="18" height="18" class="modal-form-input-icon">
                   <use href="./images/icons.svg#icon-man" />
                 </svg>
-              </span>
+              </div>
             </label>
 
             <label class="modal-form-field">

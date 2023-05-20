@@ -978,6 +978,9 @@ button {
 
 .modal-form-field {
   margin-bottom: 8px;
+  /*  */
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .modal-form-field-text {
