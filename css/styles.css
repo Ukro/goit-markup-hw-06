@@ -1226,10 +1226,10 @@ button {
   fill: transparent;
 }
 
-form input:focus .modal-form-input-icon {
+form input:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
-textarea:focus .modal-form-message {
+textarea:focus + .modal-form-message {
   border-color: #4d5ae5;
 }
