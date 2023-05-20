@@ -1211,3 +1211,14 @@ button {
 .div-checkboks {
   margin-bottom: 24px;
 }
+
+.span-label-privacy {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2e2f42;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
