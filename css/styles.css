@@ -1233,7 +1233,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
-input[type='checkbox']:focus + .span-label-privacy {
+.modal-form-check:focus + .modal-form-check-desc > .span-label-privacy {
   border-color: #4d5ae5;
 }
 
