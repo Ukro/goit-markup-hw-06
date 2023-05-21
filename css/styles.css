@@ -1235,7 +1235,7 @@ textarea:focus + .modal-form-message {
   border-color: #4d5ae5;
 }
 
-checkbox:checked + .span-label-privacy {
+input[type='checkbox']:checked + .span-label-privacy {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
