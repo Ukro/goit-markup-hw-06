@@ -1227,6 +1227,7 @@ button {
   fill: transparent;
 }
 
+/* ++ */
 form input[id='user-name']:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
@@ -1235,7 +1236,7 @@ textarea:focus + .modal-form-message {
   border-color: #4d5ae5;
 }
 
-input[type='checkbox']:checked + .span-label-privacy {
+input:checked + span {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
