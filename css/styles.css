@@ -1235,10 +1235,10 @@ button {
   border-color: #4d5ae5;
 }
 
-.modal-form-check:focus + .span-label-privacy {
+.checkbox:focus + .span-label-privacy {
   fill: #404bbf;
 }
-.modal-form-check:checked + .span-label-privacy {
+.checkbox:checked + .span-label-privacy {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
