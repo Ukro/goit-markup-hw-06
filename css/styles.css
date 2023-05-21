@@ -1233,6 +1233,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
+textarea:focus + .modal-form-message {
+  border-color: #4d5ae5;
+}
+
 .modal-form-check:checked + .modal-form-check-desc > .span-label-privacy {
   background-color: #404bbf;
   fill: #ffffff;
