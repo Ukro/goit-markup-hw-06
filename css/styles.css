@@ -1233,7 +1233,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
-textarea:focus + .modal-form-message {
+.modal-form-message:focus {
   border-color: #4d5ae5;
 }
 
