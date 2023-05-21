@@ -1234,3 +1234,12 @@ button {
 .textarea:focus + .modal-form-message {
   border-color: #4d5ae5;
 }
+
+.checkbox:focus + .span-label-privacy {
+  fill: #404bbf;
+}
+.checkbox:checked + .span-label-privacy {
+  background-color: #404bbf;
+  fill: #ffffff;
+  border: none;
+}
