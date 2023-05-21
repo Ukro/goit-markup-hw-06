@@ -1227,7 +1227,7 @@ button {
   display: inline-flex;
 }
 
-.form .input:focus + .modal-form-input-icon {
+form input:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
