@@ -1233,12 +1233,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
-.modal-form-check:focus + .modal-form-check-desc > .span-label-privacy {
-  border-color: #4d5ae5;
-}
-
 .modal-form-check:checked + .modal-form-check-desc > .span-label-privacy {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
+  border-color: #4d5ae5;
 }
