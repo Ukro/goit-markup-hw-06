@@ -1237,5 +1237,5 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
-  border-color: #4d5ae5;
+  border-color: #404bbf;
 }
