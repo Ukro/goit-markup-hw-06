@@ -1216,6 +1216,7 @@ button {
 }
 
 .span-label-privacy {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid #2e2f42;
@@ -1224,10 +1225,9 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
 }
 
-form input:focus + .modal-form-input-icon {
+form input[id='user-name']:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
