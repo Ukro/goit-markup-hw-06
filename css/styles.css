@@ -1031,7 +1031,7 @@ button {
 }
 
 .modal-form-message:focus {
-  outline: none;
+  /* outline: none; */
   border-color: var(--hover-color);
 }
 
@@ -1044,6 +1044,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--color99);
 }
+
 /*  
 .modal-form-check-desc::before {
   display: block;
@@ -1232,11 +1233,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
 
-textarea:focus + .modal-form-message {
+input[type='checkbox']:focus + .span-label-privacy {
   border-color: #4d5ae5;
 }
 
-input:checked + span {
+.modal-form-check:checked + .modal-form-check-desc > .span-label-privacy {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
