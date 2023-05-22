@@ -1121,26 +1121,22 @@ button {
   letter-spacing: 0.04em;
   color: var(--ff-color);
 
-  cursor: pointer;
-
-  background-color: var(--e-five-color);
-
   text-align: center;
   background: var(--e-five-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  display: block;
-  width: 165px;
-  height: 40px;
-
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  padding: auto;
+  /* padding: auto; */
   min-width: 165px;
-  /* margin-left: auto;
-  margin-right: auto;
-   margin-top: 64px; */
+
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
 }
 
 .subsrube-footer:hover,
@@ -1155,17 +1151,7 @@ button {
 
 .form-subscribe-footer {
   display: flex;
-  gap: 24px;
-}
-
-.subsrube-footer {
-  width: 165px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-
-  justify-content: center;
-  gap: 16px;
+  /* gap: 24px; */
 }
 
 .subscribe-text {
@@ -1195,15 +1181,13 @@ button {
   color: var(--e-five-color);
 }
 
-/*  
 .form-subscribe-footer-label {
   margin-right: 24px;
-}*/
+}
 
-/*  
 .style-button-subscribe {
   margin-left: 16px;
-}*/
+}
 
 .form-div-modal-start {
   margin-bottom: 8px;
